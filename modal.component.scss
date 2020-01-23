@@ -1,0 +1,49 @@
+.modal-content {
+  padding-top: 50px;
+  width: 90%;
+  height: 50vh;
+  position: absolute;
+  padding-left: 100px;
+  display: flex;
+  justify-content: center;
+  opacity: 0.85;
+}
+.content {
+  background-color: black;
+  width: 1000px;
+  height: 50vh;
+  text-align: center;
+  font-variant: small-caps;
+
+}
+h5 {
+  padding-top: 15px;
+  color: white;
+  border-bottom: orange 1px solid;
+  font-size: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+.modal-body {
+  color: white;
+  padding-left: 50px;
+}
+
+button {
+  background-color: gray;
+  padding: 20px;
+  margin-top: 120px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  border: none;
+  font-variant: small-caps;
+}
+
+
+.modal-foot {
+  display: flex;
+  justify-content: center;
+}
